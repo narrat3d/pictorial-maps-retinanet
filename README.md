@@ -1,15 +1,17 @@
 # pictorial-maps-retinanet
 
-## Installation (for Windows)
+## Installation
 
 * Requires Python 3.6.x (https://www.python.org/downloads/)
 * Requires CUDA Toolkit 9.0 (https://developer.nvidia.com/cuda-downloads) and corresponding cuDNN (https://developer.nvidia.com/rdp/cudnn-download)
-* Download project
-* Download and install Microsoft Build Tools (see “All Downloads” in https://visualstudio.microsoft.com/downloads/)
+* Download [this project](https://gitlab.ethz.ch/sraimund/pictorial-maps-retinanet/-/archive/master/pictorial-maps-retinanet-master.zip)
 * pip install -r requirements.txt
 * pip install \<path to this project>
 * cd \<path to this project>
 * python setup.py build_ext --inplace
+
+### Windows
+* Download and install Microsoft Build Tools (see “All Downloads” > "Tools for Visual Studio" in https://visualstudio.microsoft.com/downloads/)
 
 
 ## Inference
