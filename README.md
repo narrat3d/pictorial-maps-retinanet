@@ -1,4 +1,4 @@
-# pictorial-maps-retinanet
+# Detection of sailing ships on historic maps with RetinaNet
 
 ## Installation
 
