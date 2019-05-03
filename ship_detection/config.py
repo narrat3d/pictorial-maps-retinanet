@@ -6,7 +6,7 @@ DATA_FOLDER = r'E:\CNN\object_detection\retinanet'
 
 COCO_WEIGHTS_PATH = r"E:\CNN\models\retinanet\resnet50_coco_best_v2.1.0.h5"
 
-SHIP_DETECTION_WEIGHTS_PATH = r"E:\CNN\models\retinanet\resnet50_ships_0.5_1.0_1.5_small_inf.h5"
+SHIP_DETECTION_WEIGHTS_PATH = r"E:\CNN\models\retinanet\resnet50_ships_0.5_1.0_1.5_small.h5"
 
 COCO_GROUND_TRUTH_PATH = os.path.join(DATA_FOLDER, "coco_ships_eval.json")
 

@@ -134,4 +134,4 @@ def main(args=None):
 
 
 if __name__ == '__main__':
-    main([r"E:\CNN\logs\retinanet\test_images", r"E:\CNN\logs\retinanet\test_images_out"])
+    main()
