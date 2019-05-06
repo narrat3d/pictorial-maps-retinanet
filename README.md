@@ -16,13 +16,13 @@
 
 ## Inference
 
-* Download [trained model](https://ikgftp.ethz.ch/?path=/resnet50_ships_0.5_1.0_1.5_small.h5) and set SHIP_DETECTION_WEIGHTS_PATH to the downloaded model in config.py
+* Download [trained model](https://ikgftp.ethz.ch/?u=5LqW&p=WyNv&path=/resnet50_ships_0.5_1.0_1.5_small.h5) and set SHIP_DETECTION_WEIGHTS_PATH to the downloaded model in config.py
 * Run detect_ships.py \<input folder with images of historic map> \<output folder for text files and images with detected bounding boxes>
 
 
 ## Training
 
-* Download [training data](https://ikgftp.ethz.ch/?path=/pictorial_maps_retinanet_data.zip) and set DATA_FOLDER to the downloaded folder in config.py
+* Download [training data](https://ikgftp.ethz.ch/?u=y9q6&p=nrtY&path=/pictorial_maps_retinanet_data.zip) and set DATA_FOLDER to the downloaded folder in config.py
 * Download [trained coco weights](https://github.com/fizyr/keras-retinanet/releases/download/0.5.0/resnet50_coco_best_v2.1.0.h5) for RetinaNet and set COCO_WEIGHTS_PATH to the downloaded model in config.py
 * Adjust LOG_FOLDER in config.py. The trained models will be stored in this folder.
 * Optionally adjust properties like scales (e.g. SCALE_ARRAYS = [[2&ast;&ast;0, 2&ast;&ast;(1/3), 2&ast;&ast;(2/3)]]), number of runs (e.g. RUN_NRS = ["1st"]), configuration in config.py (CONFIG_KEYS = ["small"])
