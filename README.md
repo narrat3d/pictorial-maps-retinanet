@@ -43,3 +43,5 @@
 #### Modifications
 * Use of higher ResNet blocks in models\resnet.py and higher pyramid levels in utils\anchors.py to detect smaller objects on images
 * Parametrization of scales, strides, and sizes so that it can be trained in multiples runs with different configurations
+
+© 2019-2020 ETH Zurich, Raimund Schnürer
