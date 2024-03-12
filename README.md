@@ -2,6 +2,8 @@
 
 This is code for the article [Detection of Pictorial Map Objects with Convolutional Neural Networks](https://doi.org/10.1080/00087041.2020.1738112). Visit the [project website](http://narrat3d.ethz.ch/detection-of-pictorial-map-objects-with-cnns/) for more information.
 
+![Ships_on_map](https://github.com/narrat3d/pictorial-maps-retinanet/assets/9949879/b6f7bdd4-2151-40e8-a125-91ec3d0bde59)
+
 ## Installation
 
 * Requires [Python 3.6.x](https://www.python.org/downloads/)
